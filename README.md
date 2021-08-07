@@ -43,7 +43,7 @@ http://127.0.0.1:8000/metar/info?scode=<station_code>&nocache=1
 station_code is a valid station code. All the valid station codes are available [here](https://tgftp.nws.noaa.gov/data/observations/metar/stations/)
 
 ### Sample Request
-Here the request body is empty.
+Here the request body is empty. We pass parameters in the url itself.
 ```
 http://127.0.0.1:8000/metar/info?scode=BARK
 ```
